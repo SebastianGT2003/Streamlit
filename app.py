@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForQuestionAnswering, pipeline
 import matplotlib.pyplot as plt
-from modelo import Model
+from model import Model
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
