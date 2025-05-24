@@ -6,5 +6,6 @@ matplotlib==3.8.4
 nltk==3.8.1
 wordcloud==1.9.4
 sentencepiece
+huggingface_hub
 scipy
 gunicorn
